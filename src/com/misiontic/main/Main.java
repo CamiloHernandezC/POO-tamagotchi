@@ -4,7 +4,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		Animal cat = new Animal.Builder().weight(6).happiness(100).build();
+		Animal cat = new Animal(6);
 
 		Food apple = new Food(5);
 		
