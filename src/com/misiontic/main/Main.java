@@ -5,6 +5,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Animal cat = new Animal(6);
+		
+		Bird bird = new Bird(2);
 
 		Food apple = new Food(5);
 		
